@@ -17,7 +17,7 @@ defmodule PlugCors.Mixfile do
   defp deps do
     [
       {:plug, ">= 0.10.0"}, 
-      {:cowboy, "~> 1.1.0"},
+      {:cowboy, "~> 1.1"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.7.1", only: :dev},
     ]
